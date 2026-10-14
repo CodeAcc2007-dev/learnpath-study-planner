@@ -1,0 +1,2850 @@
+{
+  "trackId": "configure-your-own-course-id",
+  "bookTitle": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+  "author": "Aurélien Géron",
+  "edition": "2019 second-edition early release",
+  "sourceSha256": "",
+  "topics": [
+    {
+      "id": "landscape",
+      "title": "The machine learning landscape",
+      "chapter": "1",
+      "url": "/course-resources/machine-learning/01-landscape.pdf",
+      "pageCount": 34,
+      "sourceRanges": [
+        [
+          29,
+          62
+        ]
+      ],
+      "sourcePages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "printedRanges": "3–36"
+    },
+    {
+      "id": "workflow",
+      "title": "Planning and delivering an ML project",
+      "chapter": "2",
+      "url": "/course-resources/machine-learning/02-workflow.pdf",
+      "pageCount": 12,
+      "sourceRanges": [
+        [
+          63,
+          71
+        ],
+        [
+          110,
+          112
+        ]
+      ],
+      "sourcePages": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        110,
+        111,
+        112
+      ],
+      "printedRanges": "37–45, 84–86"
+    },
+    {
+      "id": "data",
+      "title": "Workspace, data loading and train/test splits",
+      "chapter": "2",
+      "url": "/course-resources/machine-learning/03-data.pdf",
+      "pageCount": 14,
+      "sourceRanges": [
+        [
+          71,
+          84
+        ]
+      ],
+      "sourcePages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "printedRanges": "45–58"
+    },
+    {
+      "id": "exploration",
+      "title": "Exploring and visualizing data",
+      "chapter": "2",
+      "url": "/course-resources/machine-learning/04-exploration.pdf",
+      "pageCount": 9,
+      "sourceRanges": [
+        [
+          84,
+          92
+        ]
+      ],
+      "sourcePages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "printedRanges": "58–66"
+    },
+    {
+      "id": "preprocessing",
+      "title": "Cleaning, encoding, scaling and pipelines",
+      "chapter": "2",
+      "url": "/course-resources/machine-learning/05-preprocessing.pdf",
+      "pageCount": 10,
+      "sourceRanges": [
+        [
+          92,
+          101
+        ]
+      ],
+      "sourcePages": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "printedRanges": "66–75"
+    },
+    {
+      "id": "evaluation",
+      "title": "Model selection and classification metrics",
+      "chapter": "1–3",
+      "url": "/course-resources/machine-learning/06-evaluation.pdf",
+      "pageCount": 39,
+      "sourceRanges": [
+        [
+          57,
+          60
+        ],
+        [
+          101,
+          109
+        ],
+        [
+          113,
+          138
+        ]
+      ],
+      "sourcePages": [
+        57,
+        58,
+        59,
+        60,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138
+      ],
+      "printedRanges": "31–34, 75–83, 87–112"
+    },
+    {
+      "id": "linear",
+      "title": "Linear regression and regression metrics",
+      "chapter": "2, 4",
+      "url": "/course-resources/machine-learning/07-linear.pdf",
+      "pageCount": 11,
+      "sourceRanges": [
+        [
+          68,
+          71
+        ],
+        [
+          139,
+          145
+        ]
+      ],
+      "sourcePages": [
+        68,
+        69,
+        70,
+        71,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "printedRanges": "42–45, 113–119"
+    },
+    {
+      "id": "gradient",
+      "title": "Batch, stochastic and mini-batch gradient descent",
+      "chapter": "4",
+      "url": "/course-resources/machine-learning/08-gradient.pdf",
+      "pageCount": 12,
+      "sourceRanges": [
+        [
+          145,
+          156
+        ]
+      ],
+      "sourcePages": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "printedRanges": "119–130"
+    },
+    {
+      "id": "polynomial",
+      "title": "Polynomial regression, learning curves and bias/variance",
+      "chapter": "4",
+      "url": "/course-resources/machine-learning/09-polynomial.pdf",
+      "pageCount": 7,
+      "sourceRanges": [
+        [
+          156,
+          162
+        ]
+      ],
+      "sourcePages": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "printedRanges": "130–136"
+    },
+    {
+      "id": "regularization",
+      "title": "Ridge, Lasso, Elastic Net and early stopping",
+      "chapter": "4",
+      "url": "/course-resources/machine-learning/10-regularization.pdf",
+      "pageCount": 9,
+      "sourceRanges": [
+        [
+          162,
+          170
+        ]
+      ],
+      "sourcePages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "printedRanges": "136–144"
+    },
+    {
+      "id": "logistic",
+      "title": "Logistic and softmax regression",
+      "chapter": "4",
+      "url": "/course-resources/machine-learning/11-logistic.pdf",
+      "pageCount": 11,
+      "sourceRanges": [
+        [
+          170,
+          180
+        ]
+      ],
+      "sourcePages": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "printedRanges": "144–154"
+    },
+    {
+      "id": "svm",
+      "title": "Support vector machines and kernels",
+      "chapter": "5",
+      "url": "/course-resources/machine-learning/12-svm.pdf",
+      "pageCount": 22,
+      "sourceRanges": [
+        [
+          181,
+          202
+        ]
+      ],
+      "sourcePages": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "printedRanges": "155–176"
+    },
+    {
+      "id": "trees",
+      "title": "Decision trees and regression trees",
+      "chapter": "6",
+      "url": "/course-resources/machine-learning/13-trees.pdf",
+      "pageCount": 14,
+      "sourceRanges": [
+        [
+          203,
+          216
+        ]
+      ],
+      "sourcePages": [
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "printedRanges": "177–190"
+    },
+    {
+      "id": "bagging",
+      "title": "Voting, bagging and out-of-bag evaluation",
+      "chapter": "7",
+      "url": "/course-resources/machine-learning/14-bagging.pdf",
+      "pageCount": 9,
+      "sourceRanges": [
+        [
+          217,
+          225
+        ]
+      ],
+      "sourcePages": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "printedRanges": "191–199"
+    },
+    {
+      "id": "forests",
+      "title": "Random forests and feature importance",
+      "chapter": "7",
+      "url": "/course-resources/machine-learning/15-forests.pdf",
+      "pageCount": 5,
+      "sourceRanges": [
+        [
+          223,
+          227
+        ]
+      ],
+      "sourcePages": [
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "printedRanges": "197–201"
+    },
+    {
+      "id": "adaboost",
+      "title": "Boosting and AdaBoost",
+      "chapter": "7",
+      "url": "/course-resources/machine-learning/16-adaboost.pdf",
+      "pageCount": 5,
+      "sourceRanges": [
+        [
+          227,
+          231
+        ]
+      ],
+      "sourcePages": [
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "printedRanges": "201–205"
+    },
+    {
+      "id": "boosting",
+      "title": "Gradient boosting and an introduction to XGBoost",
+      "chapter": "7",
+      "url": "/course-resources/machine-learning/17-boosting.pdf",
+      "pageCount": 6,
+      "sourceRanges": [
+        [
+          231,
+          236
+        ]
+      ],
+      "sourcePages": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "printedRanges": "205–210"
+    },
+    {
+      "id": "stacking",
+      "title": "Stacking and blending",
+      "chapter": "7",
+      "url": "/course-resources/machine-learning/18-stacking.pdf",
+      "pageCount": 5,
+      "sourceRanges": [
+        [
+          236,
+          240
+        ]
+      ],
+      "sourcePages": [
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "printedRanges": "210–214"
+    },
+    {
+      "id": "pca",
+      "title": "Dimensionality reduction and PCA",
+      "chapter": "8",
+      "url": "/course-resources/machine-learning/19-pca.pdf",
+      "pageCount": 22,
+      "sourceRanges": [
+        [
+          241,
+          262
+        ]
+      ],
+      "sourcePages": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "printedRanges": "215–236"
+    },
+    {
+      "id": "clustering",
+      "title": "Clustering, Gaussian mixtures and anomaly detection",
+      "chapter": "9",
+      "url": "/course-resources/machine-learning/20-clustering.pdf",
+      "pageCount": 38,
+      "sourceRanges": [
+        [
+          263,
+          300
+        ]
+      ],
+      "sourcePages": [
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "printedRanges": "237–274"
+    },
+    {
+      "id": "tensors",
+      "title": "Tensors, NumPy and TensorFlow operations",
+      "chapter": "12",
+      "url": "/course-resources/machine-learning/21-tensors.pdf",
+      "pageCount": 5,
+      "sourceRanges": [
+        [
+          397,
+          401
+        ]
+      ],
+      "sourcePages": [
+        397,
+        398,
+        399,
+        400,
+        401
+      ],
+      "printedRanges": "371–375"
+    },
+    {
+      "id": "perceptron",
+      "title": "Perceptrons and linear classification",
+      "chapter": "10",
+      "url": "/course-resources/machine-learning/22-perceptron.pdf",
+      "pageCount": 6,
+      "sourceRanges": [
+        [
+          307,
+          312
+        ]
+      ],
+      "sourcePages": [
+        307,
+        308,
+        309,
+        310,
+        311,
+        312
+      ],
+      "printedRanges": "281–286"
+    }
+  ],
+  "lessons": {
+    "ZftI2fEz0Fw": {
+      "number": 1,
+      "title": "What is Machine Learning? | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 30,
+          "sourceEnd": 34,
+          "section": "What is machine learning and why use it?",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "4–8"
+        }
+      ],
+      "note": ""
+    },
+    "1v3_AQ26jZ0": {
+      "number": 2,
+      "title": "AI Vs ML Vs DL for Beginners in Hindi",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 34,
+          "sourceEnd": 41,
+          "section": "Types of machine learning systems",
+          "coverage": "related",
+          "note": "Background on ML system types; not a dedicated AI vs ML vs DL comparison.",
+          "pdfPage": 6,
+          "printedPages": "8–15"
+        }
+      ],
+      "note": ""
+    },
+    "81ymPYEtFOw": {
+      "number": 3,
+      "title": "Types of Machine Learning for Beginners | Types of Machine learning in Hindi | Types of ML in Depth",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 34,
+          "sourceEnd": 44,
+          "section": "Supervised, unsupervised, batch and online learning",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "8–18"
+        }
+      ],
+      "note": ""
+    },
+    "nPrhFxEuTYU": {
+      "number": 4,
+      "title": "Batch Machine Learning | Offline Vs Online Learning | Machine Learning Types",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 41,
+          "sourceEnd": 42,
+          "section": "Batch learning",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 13,
+          "printedPages": "15–16"
+        }
+      ],
+      "note": ""
+    },
+    "3oOipgCbLIk": {
+      "number": 5,
+      "title": "Online Machine Learning | Online Learning | Online Vs Offline Machine Learning",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 42,
+          "sourceEnd": 44,
+          "section": "Online learning",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 14,
+          "printedPages": "16–18"
+        }
+      ],
+      "note": ""
+    },
+    "ntAOq1ioTKo": {
+      "number": 6,
+      "title": "Instance-Based Vs Model-Based Learning | Types of Machine Learning",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 44,
+          "sourceEnd": 49,
+          "section": "Instance-based versus model-based learning",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 16,
+          "printedPages": "18–23"
+        }
+      ],
+      "note": ""
+    },
+    "WGUNAJki2S4": {
+      "number": 7,
+      "title": "Challenges in Machine Learning | Problems in Machine Learning",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 50,
+          "sourceEnd": 60,
+          "section": "Data quality, overfitting and validation",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 22,
+          "printedPages": "24–34"
+        }
+      ],
+      "note": ""
+    },
+    "UZio8TcTMrI": {
+      "number": 8,
+      "title": "Application of Machine Learning | Real Life Machine Learning Applications",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 30,
+          "sourceEnd": 41,
+          "section": "Applications and examples of ML systems",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "4–15"
+        }
+      ],
+      "note": ""
+    },
+    "iDbhQGz_rEo": {
+      "number": 9,
+      "title": "Machine Learning Development Life Cycle | MLDLC in Data Science",
+      "readings": [
+        {
+          "topicId": "workflow",
+          "sourceStart": 63,
+          "sourceEnd": 71,
+          "section": "End-to-end project checklist and framing",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "37–45"
+        },
+        {
+          "topicId": "workflow",
+          "sourceStart": 110,
+          "sourceEnd": 112,
+          "section": "Launch, monitor and maintain your system",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 10,
+          "printedPages": "84–86"
+        }
+      ],
+      "note": ""
+    },
+    "93rKZs0MkgU": {
+      "number": 10,
+      "title": "Data Engineer Vs Data Analyst Vs Data Scientist Vs ML Engineer | Data Science Job Roles",
+      "readings": [],
+      "note": "This edition does not provide a dedicated comparison of data-science job roles."
+    },
+    "vVhD2EyS41Y": {
+      "number": 11,
+      "title": "What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning",
+      "readings": [
+        {
+          "topicId": "tensors",
+          "sourceStart": 397,
+          "sourceEnd": 401,
+          "section": "Tensors, operations, NumPy interoperability and variables",
+          "coverage": "related",
+          "note": "TensorFlow examples support the tensor concept; this is not a full tensor-algebra chapter.",
+          "pdfPage": 1,
+          "printedPages": "371–375"
+        }
+      ],
+      "note": ""
+    },
+    "82P5N2m41jE": {
+      "number": 12,
+      "title": "Installing Anaconda For Data Science | Jupyter Notebook for Machine Learning | Google Colab for ML",
+      "readings": [
+        {
+          "topicId": "data",
+          "sourceStart": 71,
+          "sourceEnd": 75,
+          "section": "Create a workspace and start Jupyter",
+          "coverage": "partial",
+          "note": "Covers local Python/Jupyter setup; not a Google Colab walkthrough.",
+          "pdfPage": 1,
+          "printedPages": "45–49"
+        }
+      ],
+      "note": ""
+    },
+    "dr7z7a_8lQw": {
+      "number": 13,
+      "title": "End to End Toy Project | Day 13 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "workflow",
+          "sourceStart": 63,
+          "sourceEnd": 71,
+          "section": "End-to-end project checklist and framing",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "37–45"
+        },
+        {
+          "topicId": "workflow",
+          "sourceStart": 110,
+          "sourceEnd": 112,
+          "section": "Launch, monitor and maintain your system",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 10,
+          "printedPages": "84–86"
+        },
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 92,
+          "sourceEnd": 101,
+          "section": "Prepare the data and train a first model",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "66–75"
+        },
+        {
+          "topicId": "evaluation",
+          "sourceStart": 101,
+          "sourceEnd": 109,
+          "section": "Training, evaluation and model selection",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "75–83"
+        }
+      ],
+      "note": ""
+    },
+    "A9SezQlvakw": {
+      "number": 14,
+      "title": "How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively",
+      "readings": [
+        {
+          "topicId": "workflow",
+          "sourceStart": 65,
+          "sourceEnd": 71,
+          "section": "Frame the problem and select a performance measure",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 3,
+          "printedPages": "39–45"
+        }
+      ],
+      "note": ""
+    },
+    "a_XrmKlaGTs": {
+      "number": 15,
+      "title": "Working with CSV files | Day 15 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "data",
+          "sourceStart": 75,
+          "sourceEnd": 77,
+          "section": "Download data and read a CSV into pandas",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "49–51"
+        }
+      ],
+      "note": ""
+    },
+    "fFwRC-fapIU": {
+      "number": 16,
+      "title": "Working with JSON/SQL | Day 16 | 100 Days of Machine Learning",
+      "readings": [],
+      "note": "No dedicated JSON/SQL, web API or web-scraping walkthrough is included in this edition."
+    },
+    "roTZJaxjnJc": {
+      "number": 17,
+      "title": "Fetching Data From an API | Day 17 | 100 Days of Machine Learning",
+      "readings": [],
+      "note": "No dedicated JSON/SQL, web API or web-scraping walkthrough is included in this edition."
+    },
+    "8NOdgjC1988": {
+      "number": 18,
+      "title": "Fetching data using Web Scraping | Day 18 | 100 Days of Machine Learning",
+      "readings": [],
+      "note": "No dedicated JSON/SQL, web API or web-scraping walkthrough is included in this edition."
+    },
+    "mJlRTUuVr04": {
+      "number": 19,
+      "title": "Understanding Your Data | Day 19 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "data",
+          "sourceStart": 76,
+          "sourceEnd": 80,
+          "section": "Inspect data types, missing values, statistics and histograms",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "50–54"
+        }
+      ],
+      "note": ""
+    },
+    "4HyTlbHUKSw": {
+      "number": 20,
+      "title": "EDA using Univariate Analysis | Day 20 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "data",
+          "sourceStart": 76,
+          "sourceEnd": 80,
+          "section": "Inspect data types, missing values, statistics and histograms",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "50–54"
+        }
+      ],
+      "note": ""
+    },
+    "6D3VtEfCw7w": {
+      "number": 21,
+      "title": "EDA using Bivariate and Multivariate Analysis | Day 21 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "exploration",
+          "sourceStart": 84,
+          "sourceEnd": 92,
+          "section": "Visualizations, correlations and attribute combinations",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "58–66"
+        }
+      ],
+      "note": ""
+    },
+    "E69Lg2ZgOxg": {
+      "number": 22,
+      "title": "Pandas Profiling | Day 22 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "exploration",
+          "sourceStart": 84,
+          "sourceEnd": 92,
+          "section": "Manual exploratory data analysis",
+          "coverage": "related",
+          "note": "Background only; does not teach the profiling package.",
+          "pdfPage": 1,
+          "printedPages": "58–66"
+        }
+      ],
+      "note": "Pandas Profiling is not covered; the book uses manual data inspection and visualizations."
+    },
+    "sluoVhT0ehg": {
+      "number": 23,
+      "title": "What is Feature Engineering | Day 23 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 92,
+          "sourceEnd": 101,
+          "section": "Prepare data and build transformations",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "66–75"
+        }
+      ],
+      "note": ""
+    },
+    "1Yw9sC0PNwY": {
+      "number": 24,
+      "title": "Feature Scaling - Standardization | Day 24 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 98,
+          "sourceEnd": 99,
+          "section": "Standardization",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 7,
+          "printedPages": "72–73"
+        }
+      ],
+      "note": ""
+    },
+    "eBrGyuA2MIg": {
+      "number": 25,
+      "title": "Feature Scaling - Normalization | MinMaxScaling | MaxAbsScaling | RobustScaling",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 98,
+          "sourceEnd": 99,
+          "section": "Min-max scaling and standardization",
+          "coverage": "partial",
+          "note": "MinMaxScaler is covered; MaxAbsScaler and RobustScaler are not explained here.",
+          "pdfPage": 7,
+          "printedPages": "72–73"
+        }
+      ],
+      "note": ""
+    },
+    "w2GglmYHfmM": {
+      "number": 26,
+      "title": "Encoding Categorical Data | Ordinal Encoding | Label Encoding",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 95,
+          "sourceEnd": 96,
+          "section": "Ordinal encoding of categorical attributes",
+          "coverage": "partial",
+          "note": "Covers OrdinalEncoder rather than a separate LabelEncoder tutorial.",
+          "pdfPage": 4,
+          "printedPages": "69–70"
+        }
+      ],
+      "note": ""
+    },
+    "U5oCv3JKWKA": {
+      "number": 27,
+      "title": "One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 96,
+          "sourceEnd": 97,
+          "section": "One-hot encoding and sparse matrices",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "70–71"
+        }
+      ],
+      "note": ""
+    },
+    "5TVj6iEBR4I": {
+      "number": 28,
+      "title": "Column Transformer in Machine Learning | How to use ColumnTransformer in Sklearn",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 100,
+          "sourceEnd": 101,
+          "section": "ColumnTransformer",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 9,
+          "printedPages": "74–75"
+        }
+      ],
+      "note": ""
+    },
+    "xOccYkgRV4Q": {
+      "number": 29,
+      "title": "Machine Learning Pipelines A-Z | Day 29 | 100 Days of Machine Learning",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 99,
+          "sourceEnd": 101,
+          "section": "Transformation pipelines",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 8,
+          "printedPages": "73–75"
+        }
+      ],
+      "note": ""
+    },
+    "cTjj3LE8E90": {
+      "number": 30,
+      "title": "Function Transformer | Log Transform | Reciprocal Transform | Square Root Transform",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 97,
+          "sourceEnd": 98,
+          "section": "Custom transformers",
+          "coverage": "related",
+          "note": "Transformer API background; log, reciprocal and square-root transforms are not developed here.",
+          "pdfPage": 6,
+          "printedPages": "71–72"
+        }
+      ],
+      "note": ""
+    },
+    "lV_Z4HbNAx0": {
+      "number": 31,
+      "title": "Power Transformer | Box - Cox Transform | Yeo - Johnson Transform",
+      "readings": [],
+      "note": "Box-Cox, Yeo-Johnson and PowerTransformer are not explained in this edition."
+    },
+    "kKWsJGKcMvo": {
+      "number": 32,
+      "title": "Binning and Binarization | Discretization | Quantile Binning | KMeans Binning",
+      "readings": [
+        {
+          "topicId": "data",
+          "sourceStart": 82,
+          "sourceEnd": 84,
+          "section": "Income categories for stratified sampling",
+          "coverage": "related",
+          "note": "An example of binning, not a full treatment of discretization or KMeans binning.",
+          "pdfPage": 12,
+          "printedPages": "56–58"
+        }
+      ],
+      "note": ""
+    },
+    "9xiX-I5_LQY": {
+      "number": 33,
+      "title": "Handling Mixed Variables | Feature Engineering",
+      "readings": [],
+      "note": "No dedicated treatment of mixed-field parsing or date/time feature engineering is included."
+    },
+    "J73mvgG9fFs": {
+      "number": 34,
+      "title": "Handling Date and Time Variables | Day 34 | 100 Days of Machine Learning",
+      "readings": [],
+      "note": "No dedicated treatment of mixed-field parsing or date/time feature engineering is included."
+    },
+    "aUnNWZorGmk": {
+      "number": 35,
+      "title": "Handling Missing Data | Part 1 | Complete Case Analysis",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 93,
+          "sourceEnd": 95,
+          "section": "Data cleaning and numerical imputation",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "67–69"
+        }
+      ],
+      "note": ""
+    },
+    "mCL2xLBDw8M": {
+      "number": 36,
+      "title": "Handling missing data | Numerical Data | Simple Imputer",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 93,
+          "sourceEnd": 95,
+          "section": "Data cleaning and numerical imputation",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "67–69"
+        }
+      ],
+      "note": ""
+    },
+    "l_Wip8bEDFQ": {
+      "number": 37,
+      "title": "Handling Missing Categorical Data | Simple Imputer | Most Frequent Imputation | Missing Category Imp",
+      "readings": [
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 93,
+          "sourceEnd": 95,
+          "section": "SimpleImputer strategies",
+          "coverage": "partial",
+          "note": "Mentions most_frequent for non-numerical data; missing-category imputation is not developed.",
+          "pdfPage": 2,
+          "printedPages": "67–69"
+        }
+      ],
+      "note": ""
+    },
+    "Ratcir3p03w": {
+      "number": 38,
+      "title": "Missing Indicator | Random Sample Imputation | Handling Missing Data Part 4",
+      "readings": [],
+      "note": "Random-sample imputation, missing indicators, KNN imputation and MICE are not developed in this edition."
+    },
+    "-fK-xEev2I8": {
+      "number": 39,
+      "title": "KNN Imputer | Multivariate Imputation | Handling Missing Data Part 5",
+      "readings": [],
+      "note": "Random-sample imputation, missing indicators, KNN imputation and MICE are not developed in this edition."
+    },
+    "a38ehxv3kyk": {
+      "number": 40,
+      "title": "Multivariate Imputation by Chained Equations for Missing Value | MICE Algorithm | Iterative Imputer",
+      "readings": [],
+      "note": "Random-sample imputation, missing indicators, KNN imputation and MICE are not developed in this edition."
+    },
+    "Lln1PKgGr_M": {
+      "number": 41,
+      "title": "What are Outliers | Outliers in Machine Learning",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 292,
+          "sourceEnd": 293,
+          "section": "Anomaly detection with Gaussian mixtures",
+          "coverage": "related",
+          "note": "An alternative model-based view of outliers.",
+          "pdfPage": 30,
+          "printedPages": "266–267"
+        }
+      ],
+      "note": ""
+    },
+    "OnPE-Z8jtqM": {
+      "number": 42,
+      "title": "Outlier Detection and Removal using Z-score Method | Handling Outliers Part 2",
+      "readings": [],
+      "note": "The specific Z-score, IQR and percentile/winsorization removal methods are not developed in this edition."
+    },
+    "Ccv1-W5ilak": {
+      "number": 43,
+      "title": "Outlier Detection and Removal using the IQR Method | Handing Outliers Part 3",
+      "readings": [],
+      "note": "The specific Z-score, IQR and percentile/winsorization removal methods are not developed in this edition."
+    },
+    "bcXA4CqRXvM": {
+      "number": 44,
+      "title": "Outlier Detection using the Percentile Method | Winsorization Technique",
+      "readings": [],
+      "note": "The specific Z-score, IQR and percentile/winsorization removal methods are not developed in this edition."
+    },
+    "ma-h30PoFms": {
+      "number": 45,
+      "title": "Feature Construction | Feature Splitting",
+      "readings": [
+        {
+          "topicId": "exploration",
+          "sourceStart": 91,
+          "sourceEnd": 92,
+          "section": "Experimenting with attribute combinations",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 8,
+          "printedPages": "65–66"
+        },
+        {
+          "topicId": "preprocessing",
+          "sourceStart": 97,
+          "sourceEnd": 98,
+          "section": "Custom feature transformers",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "71–72"
+        }
+      ],
+      "note": ""
+    },
+    "ToGuhynu-No": {
+      "number": 46,
+      "title": "Curse of Dimensionality",
+      "readings": [
+        {
+          "topicId": "pca",
+          "sourceStart": 241,
+          "sourceEnd": 244,
+          "section": "The curse of dimensionality",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "215–218"
+        }
+      ],
+      "note": ""
+    },
+    "iRbsBi5W0-c": {
+      "number": 47,
+      "title": "Principle Component Analysis  (PCA) | Part 1 | Geometric Intuition",
+      "readings": [
+        {
+          "topicId": "pca",
+          "sourceStart": 244,
+          "sourceEnd": 250,
+          "section": "Projection, variance and principal components",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 4,
+          "printedPages": "218–224"
+        }
+      ],
+      "note": ""
+    },
+    "tXXnxjj2wM4": {
+      "number": 48,
+      "title": "Principle Component Analysis (PCA) | Part 2 | Problem Formulation and Step by Step Solution",
+      "readings": [
+        {
+          "topicId": "pca",
+          "sourceStart": 248,
+          "sourceEnd": 251,
+          "section": "Principal components and projection",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 8,
+          "printedPages": "222–225"
+        }
+      ],
+      "note": ""
+    },
+    "tofVCUDrg4M": {
+      "number": 49,
+      "title": "Principle Component Analysis(PCA) | Part 3 | Code Example and Visualization",
+      "readings": [
+        {
+          "topicId": "pca",
+          "sourceStart": 250,
+          "sourceEnd": 254,
+          "section": "PCA with Scikit-Learn and explained variance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 10,
+          "printedPages": "224–228"
+        }
+      ],
+      "note": ""
+    },
+    "UZPfbG0jNec": {
+      "number": 50,
+      "title": "Simple Linear Regression | Code + Intuition | Simplest Explanation in Hindi",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model, normal equation and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "dXHIDLPKdmA": {
+      "number": 51,
+      "title": "Simple Linear Regression | Mathematical Formulation | Coding from Scratch",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model, normal equation and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "Ti7c-Hz7GSM": {
+      "number": 52,
+      "title": "Regression Metrics | MSE, MAE & RMSE | R2 Score & Adjusted R2 Score",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 68,
+          "sourceEnd": 71,
+          "section": "RMSE and MAE",
+          "coverage": "partial",
+          "note": "Covers RMSE/MAE; R-squared and adjusted R-squared are not explained here.",
+          "pdfPage": 1,
+          "printedPages": "42–45"
+        },
+        {
+          "topicId": "linear",
+          "sourceStart": 141,
+          "sourceEnd": 142,
+          "section": "Mean squared error",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 7,
+          "printedPages": "115–116"
+        }
+      ],
+      "note": ""
+    },
+    "ashGekqstl8": {
+      "number": 53,
+      "title": "Multiple Linear Regression | Geometric Intuition & Code",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model, normal equation and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "NU37mF5q8VE": {
+      "number": 54,
+      "title": "Multiple Linear Regression | Part 2 | Mathematical Formulation From Scratch",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model, normal equation and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "VmZWXzxmNrE": {
+      "number": 55,
+      "title": "Multiple Linear Regression | Part 3 | Code From Scratch",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model, normal equation and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "EmSNAtcHLm8": {
+      "number": 56,
+      "title": "What are the main Assumptions of Linear Regression? | Top 5 Assumptions of Linear Regression",
+      "readings": [
+        {
+          "topicId": "linear",
+          "sourceStart": 140,
+          "sourceEnd": 145,
+          "section": "Linear model and least-squares formulation",
+          "coverage": "related",
+          "note": "Not a dedicated treatment of the five statistical assumptions in the lecture.",
+          "pdfPage": 6,
+          "printedPages": "114–119"
+        }
+      ],
+      "note": ""
+    },
+    "ORyfPJypKuU": {
+      "number": 57,
+      "title": "Gradient Descent From Scratch | End to End Gradient Descent | Gradient Descent Animation",
+      "readings": [
+        {
+          "topicId": "gradient",
+          "sourceStart": 145,
+          "sourceEnd": 152,
+          "section": "Gradient descent and the learning rate",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "119–126"
+        }
+      ],
+      "note": ""
+    },
+    "Jyo53pAyVAM": {
+      "number": 58,
+      "title": "Batch Gradient Descent with Code Demo | Simple Explanation in Hindi",
+      "readings": [
+        {
+          "topicId": "gradient",
+          "sourceStart": 149,
+          "sourceEnd": 152,
+          "section": "Batch gradient descent",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "123–126"
+        }
+      ],
+      "note": ""
+    },
+    "V7KBAa_gh4c": {
+      "number": 59,
+      "title": "Stochastic Gradient Descent",
+      "readings": [
+        {
+          "topicId": "gradient",
+          "sourceStart": 152,
+          "sourceEnd": 155,
+          "section": "Stochastic gradient descent",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 8,
+          "printedPages": "126–129"
+        }
+      ],
+      "note": ""
+    },
+    "_scscQ4HVTY": {
+      "number": 60,
+      "title": "Mini-Batch Gradient Descent",
+      "readings": [
+        {
+          "topicId": "gradient",
+          "sourceStart": 155,
+          "sourceEnd": 156,
+          "section": "Mini-batch gradient descent",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 11,
+          "printedPages": "129–130"
+        }
+      ],
+      "note": ""
+    },
+    "BNWLf3cKdbQ": {
+      "number": 61,
+      "title": "Polynomial Regression | Machine Learning",
+      "readings": [
+        {
+          "topicId": "polynomial",
+          "sourceStart": 156,
+          "sourceEnd": 158,
+          "section": "Polynomial regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "130–132"
+        }
+      ],
+      "note": ""
+    },
+    "74DU02Fyrhk": {
+      "number": 62,
+      "title": "Bias Variance Trade-off | Overfitting and Underfitting in Machine Learning",
+      "readings": [
+        {
+          "topicId": "polynomial",
+          "sourceStart": 158,
+          "sourceEnd": 162,
+          "section": "Learning curves and the bias/variance trade-off",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 3,
+          "printedPages": "132–136"
+        }
+      ],
+      "note": ""
+    },
+    "aEow1QoTLo0": {
+      "number": 63,
+      "title": "Ridge Regression Part 1 | Geometric Intuition and Code | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 162,
+          "sourceEnd": 165,
+          "section": "Regularized models and Ridge regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "136–139"
+        }
+      ],
+      "note": ""
+    },
+    "oDlZBQjk_3A": {
+      "number": 64,
+      "title": "Ridge Regression Part 2 | Mathematical Formulation & Code from scratch | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 162,
+          "sourceEnd": 165,
+          "section": "Regularized models and Ridge regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "136–139"
+        }
+      ],
+      "note": ""
+    },
+    "Fci_wwMp8G8": {
+      "number": 65,
+      "title": "Ridge Regression Part 3 | Gradient Descent | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 162,
+          "sourceEnd": 165,
+          "section": "Regularized models and Ridge regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "136–139"
+        }
+      ],
+      "note": ""
+    },
+    "8osKeShYVRQ": {
+      "number": 66,
+      "title": "5 Key Points - Ridge Regression | Part 4 | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 162,
+          "sourceEnd": 165,
+          "section": "Regularized models and Ridge regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "136–139"
+        }
+      ],
+      "note": ""
+    },
+    "HLF4bFbBgwk": {
+      "number": 67,
+      "title": "Lasso Regression | Intuition and Code Sample | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 165,
+          "sourceEnd": 168,
+          "section": "Lasso regression and sparsity",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 4,
+          "printedPages": "139–142"
+        }
+      ],
+      "note": ""
+    },
+    "FN4aZPIAfI4": {
+      "number": 68,
+      "title": "Why Lasso Regression creates sparsity?",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 165,
+          "sourceEnd": 168,
+          "section": "Lasso regression and sparsity",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 4,
+          "printedPages": "139–142"
+        }
+      ],
+      "note": ""
+    },
+    "2g2DBkFhTTY": {
+      "number": 69,
+      "title": "ElasticNet Regression | Intuition and Code Example | Regularized Linear Models",
+      "readings": [
+        {
+          "topicId": "regularization",
+          "sourceStart": 168,
+          "sourceEnd": 170,
+          "section": "Elastic Net and early stopping",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 7,
+          "printedPages": "142–144"
+        }
+      ],
+      "note": ""
+    },
+    "XNXzVfItWGY": {
+      "number": 70,
+      "title": "Logistic Regression Part 1 | Perceptron Trick",
+      "readings": [
+        {
+          "topicId": "perceptron",
+          "sourceStart": 307,
+          "sourceEnd": 312,
+          "section": "The perceptron and its limitations",
+          "coverage": "related",
+          "note": "Perceptron background; the lecture’s exact perceptron-trick implementation is not reproduced.",
+          "pdfPage": 1,
+          "printedPages": "281–286"
+        },
+        {
+          "topicId": "logistic",
+          "sourceStart": 170,
+          "sourceEnd": 172,
+          "section": "Logistic probabilities and cost function",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "144–146"
+        }
+      ],
+      "note": ""
+    },
+    "tLezwPKvPK4": {
+      "number": 71,
+      "title": "Logistic Regression Part 2 | Perceptron Trick Code",
+      "readings": [
+        {
+          "topicId": "perceptron",
+          "sourceStart": 307,
+          "sourceEnd": 312,
+          "section": "The perceptron and its limitations",
+          "coverage": "related",
+          "note": "Perceptron background; the lecture’s exact perceptron-trick implementation is not reproduced.",
+          "pdfPage": 1,
+          "printedPages": "281–286"
+        },
+        {
+          "topicId": "logistic",
+          "sourceStart": 170,
+          "sourceEnd": 172,
+          "section": "Logistic probabilities and cost function",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "144–146"
+        }
+      ],
+      "note": ""
+    },
+    "ehO0-6i9qD4": {
+      "number": 72,
+      "title": "Logistic Regression Part 3 | Sigmoid Function | 100 Days of ML",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 170,
+          "sourceEnd": 172,
+          "section": "Logistic probabilities and cost function",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "144–146"
+        }
+      ],
+      "note": ""
+    },
+    "6bXOo0sxY5c": {
+      "number": 73,
+      "title": "Logistic Regression Part 4 | Loss Function | Maximum Likelihood | Binary Cross Entropy",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 171,
+          "sourceEnd": 172,
+          "section": "Logistic loss and gradient descent",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "145–146"
+        }
+      ],
+      "note": ""
+    },
+    "awjXaFR1jOM": {
+      "number": 74,
+      "title": "Derivative of Sigmoid Function",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 170,
+          "sourceEnd": 172,
+          "section": "Sigmoid function and logistic gradient",
+          "coverage": "related",
+          "note": "Useful equations; not a standalone step-by-step sigmoid derivative proof.",
+          "pdfPage": 1,
+          "printedPages": "144–146"
+        }
+      ],
+      "note": ""
+    },
+    "ABrrSwMYWSg": {
+      "number": 75,
+      "title": "Logistic Regression Part 5 | Gradient Descent & Code From Scratch",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 171,
+          "sourceEnd": 172,
+          "section": "Logistic loss and gradient descent",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "145–146"
+        }
+      ],
+      "note": ""
+    },
+    "c09drtuCS3c": {
+      "number": 76,
+      "title": "Accuracy and Confusion Matrix | Type 1 and Type 2 Errors | Classification Metrics Part 1",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 116,
+          "sourceEnd": 120,
+          "section": "Accuracy, cross-validation and the confusion matrix",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 17,
+          "printedPages": "90–94"
+        }
+      ],
+      "note": ""
+    },
+    "iK-kdhJ-7yI": {
+      "number": 77,
+      "title": "Precision, Recall and F1 Score | Classification Metrics Part 2",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 120,
+          "sourceEnd": 125,
+          "section": "Precision, recall, F1 and threshold trade-offs",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 21,
+          "printedPages": "94–99"
+        }
+      ],
+      "note": ""
+    },
+    "gdW6hj9IXaA": {
+      "number": 78,
+      "title": "ROC Curve in Machine Learning | ROC-AUC in Machine Learning Simplified | CampusX",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 125,
+          "sourceEnd": 128,
+          "section": "ROC curves and AUC",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 26,
+          "printedPages": "99–102"
+        }
+      ],
+      "note": ""
+    },
+    "Z8noL_0M4tw": {
+      "number": 79,
+      "title": "Softmax Regression || Multinomial Logistic Regression || Logistic Regression Part 6",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 175,
+          "sourceEnd": 179,
+          "section": "Softmax regression",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 6,
+          "printedPages": "149–153"
+        }
+      ],
+      "note": ""
+    },
+    "WnBYW_DX3sM": {
+      "number": 80,
+      "title": "Polynomial Features in Logistic Regression | Non Linear Logistic Regression | Logistic Regression 7",
+      "readings": [
+        {
+          "topicId": "polynomial",
+          "sourceStart": 156,
+          "sourceEnd": 158,
+          "section": "Polynomial features",
+          "coverage": "related",
+          "note": "Explains polynomial features with linear regression; combine with logistic regression.",
+          "pdfPage": 1,
+          "printedPages": "130–132"
+        },
+        {
+          "topicId": "logistic",
+          "sourceStart": 172,
+          "sourceEnd": 179,
+          "section": "Decision boundaries, regularization and softmax",
+          "coverage": "partial",
+          "note": "Background for non-linear features and regularization; not every LogisticRegression parameter is covered.",
+          "pdfPage": 3,
+          "printedPages": "146–153"
+        }
+      ],
+      "note": ""
+    },
+    "ay_OcblJasE": {
+      "number": 81,
+      "title": "Logistic Regression Hyperparameters || Logistic Regression Part 8",
+      "readings": [
+        {
+          "topicId": "logistic",
+          "sourceStart": 172,
+          "sourceEnd": 179,
+          "section": "Decision boundaries, regularization and softmax",
+          "coverage": "partial",
+          "note": "Background for non-linear features and regularization; not every LogisticRegression parameter is covered.",
+          "pdfPage": 3,
+          "printedPages": "146–153"
+        }
+      ],
+      "note": ""
+    },
+    "Ty7knppVo9E": {
+      "number": 82,
+      "title": "Naive Bayes Classifier | Part 1 | Conditional Probability",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "0GD480CnrO4": {
+      "number": 83,
+      "title": "Naive Bayes Classifier | Part 2 | Independent Events in Probability",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "nneTjTYikBE": {
+      "number": 84,
+      "title": "Naive Bayes Classifier | Part 3 | Mutually Exclusive Events",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "Oqw-v-Z7PuU": {
+      "number": 85,
+      "title": "Naive Bayes Classifier | Part 4 | Bayes Theorem in Probability",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "aAEHjXDHtbE": {
+      "number": 86,
+      "title": "Naive Bayes Classifier | Part 5 | Problem based upon Bayes Theorem",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "ZR1_QtLk_4U": {
+      "number": 87,
+      "title": "Naive Bayes Classifier | Part 6 | Intuition",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "2PVRG45eVrY": {
+      "number": 88,
+      "title": "Naive Bayes Classifier | Part 7 | Mathematics behind Naive Bayes Algorithm",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "DeeWsqoY4Eo": {
+      "number": 89,
+      "title": "Naive Bayes Classifier | Part 8 | Simple Example Code",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "TCgK2nBJx9o": {
+      "number": 90,
+      "title": "Naive Bayes Part 9 | Handling Numerical Data",
+      "readings": [],
+      "note": "This edition does not include a dedicated Naive Bayes or introductory probability chapter."
+    },
+    "abnL_GUGub4": {
+      "number": 91,
+      "title": "What is K Nearest Neighbors? | KNN Explained in Hindi | Simple Overview in 1 Video | CampusX",
+      "readings": [
+        {
+          "topicId": "landscape",
+          "sourceStart": 44,
+          "sourceEnd": 49,
+          "section": "Instance-based learning and a k-nearest-neighbors example",
+          "coverage": "partial",
+          "note": "Introductory intuition and a small KNN regression example, not a full KNN chapter.",
+          "pdfPage": 16,
+          "printedPages": "18–23"
+        }
+      ],
+      "note": ""
+    },
+    "ugTxMLjLS8M": {
+      "number": 92,
+      "title": "Support Vector Machines | Geometric Intuition",
+      "readings": [
+        {
+          "topicId": "svm",
+          "sourceStart": 181,
+          "sourceEnd": 185,
+          "section": "Large-margin classification",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "155–159"
+        }
+      ],
+      "note": ""
+    },
+    "yCAlHPDgWtM": {
+      "number": 93,
+      "title": "Mathematics of SVM | Support Vector Machines | Hard margin SVM",
+      "readings": [
+        {
+          "topicId": "svm",
+          "sourceStart": 192,
+          "sourceEnd": 200,
+          "section": "Decision function, objective, quadratic programming and the dual",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 12,
+          "printedPages": "166–174"
+        }
+      ],
+      "note": ""
+    },
+    "utqrvIFAE1k": {
+      "number": 94,
+      "title": "Mathematics of Support Vector Machine | Soft Margin SVM",
+      "readings": [
+        {
+          "topicId": "svm",
+          "sourceStart": 182,
+          "sourceEnd": 185,
+          "section": "Soft-margin classification",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "156–159"
+        },
+        {
+          "topicId": "svm",
+          "sourceStart": 193,
+          "sourceEnd": 196,
+          "section": "Soft-margin objective and constraints",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 13,
+          "printedPages": "167–170"
+        }
+      ],
+      "note": ""
+    },
+    "egxjT0p7_K8": {
+      "number": 95,
+      "title": "Kernel Trick in SVM | Geometric Intuition",
+      "readings": [
+        {
+          "topicId": "svm",
+          "sourceStart": 185,
+          "sourceEnd": 190,
+          "section": "Polynomial and Gaussian RBF kernels",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "159–164"
+        },
+        {
+          "topicId": "svm",
+          "sourceStart": 196,
+          "sourceEnd": 200,
+          "section": "The dual problem and kernelized SVM",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 16,
+          "printedPages": "170–174"
+        }
+      ],
+      "note": ""
+    },
+    "pjvmVMDrzVU": {
+      "number": 96,
+      "title": "Kernel Trick in SVM | Code Example",
+      "readings": [
+        {
+          "topicId": "svm",
+          "sourceStart": 185,
+          "sourceEnd": 190,
+          "section": "Polynomial and Gaussian RBF kernels",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "159–164"
+        }
+      ],
+      "note": ""
+    },
+    "IZnno-dKgVQ": {
+      "number": 97,
+      "title": "Decision Trees Geometric Intuition | Entropy | Gini impurity | Information Gain",
+      "readings": [
+        {
+          "topicId": "trees",
+          "sourceStart": 203,
+          "sourceEnd": 210,
+          "section": "Tree predictions, CART, entropy and Gini impurity",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "177–184"
+        }
+      ],
+      "note": ""
+    },
+    "mDEV0Iucwz0": {
+      "number": 98,
+      "title": "Decision Trees - Hyperparameters | Overfitting and Underfitting in Decision Trees",
+      "readings": [
+        {
+          "topicId": "trees",
+          "sourceStart": 210,
+          "sourceEnd": 215,
+          "section": "Regularization, hyperparameters and instability",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 8,
+          "printedPages": "184–189"
+        }
+      ],
+      "note": ""
+    },
+    "RANHxyAvtM4": {
+      "number": 99,
+      "title": "Regression Trees | Decision Trees Part 3",
+      "readings": [
+        {
+          "topicId": "trees",
+          "sourceStart": 211,
+          "sourceEnd": 214,
+          "section": "Regression trees",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 9,
+          "printedPages": "185–188"
+        }
+      ],
+      "note": ""
+    },
+    "SlMZqfvl5uw": {
+      "number": 100,
+      "title": "Awesome Decision Tree Visualization using dtreeviz library",
+      "readings": [
+        {
+          "topicId": "trees",
+          "sourceStart": 203,
+          "sourceEnd": 205,
+          "section": "Training and visualizing trees",
+          "coverage": "related",
+          "note": "Uses Graphviz/export_graphviz; dtreeviz is not covered.",
+          "pdfPage": 1,
+          "printedPages": "177–179"
+        }
+      ],
+      "note": ""
+    },
+    "bHK1fE_BUms": {
+      "number": 101,
+      "title": "Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 217,
+          "sourceEnd": 221,
+          "section": "Ensemble learning and voting classifiers",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "191–195"
+        }
+      ],
+      "note": ""
+    },
+    "_W1i-c_6rOk": {
+      "number": 102,
+      "title": "Voting Ensemble |  Introduction and Core Idea | Part 1",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 217,
+          "sourceEnd": 221,
+          "section": "Ensemble learning and voting classifiers",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "191–195"
+        }
+      ],
+      "note": ""
+    },
+    "pGQnNYdPTvY": {
+      "number": 103,
+      "title": "Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 217,
+          "sourceEnd": 221,
+          "section": "Ensemble learning and voting classifiers",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "191–195"
+        }
+      ],
+      "note": ""
+    },
+    "ut4vh59rGkw": {
+      "number": 104,
+      "title": "Voting Ensemble | Regression | Part 3",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 218,
+          "sourceEnd": 221,
+          "section": "Voting ensembles",
+          "coverage": "related",
+          "note": "Classification example; voting regression is not worked through here.",
+          "pdfPage": 2,
+          "printedPages": "192–195"
+        }
+      ],
+      "note": ""
+    },
+    "LUiBOAy7x6Y": {
+      "number": 105,
+      "title": "Bagging | Introduction | Part 1",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 221,
+          "sourceEnd": 225,
+          "section": "Bagging, pasting and random subspaces",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "195–199"
+        }
+      ],
+      "note": ""
+    },
+    "-1T54G_E-ys": {
+      "number": 106,
+      "title": "Bagging Ensemble | Part 2 | Bagging Classifiers",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 221,
+          "sourceEnd": 225,
+          "section": "Bagging, pasting and random subspaces",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "195–199"
+        }
+      ],
+      "note": ""
+    },
+    "HYVzrETXbkE": {
+      "number": 107,
+      "title": "Bagging Ensemble | Part 3 | Bagging Regressor",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 221,
+          "sourceEnd": 225,
+          "section": "Bagging, pasting and random subspaces",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "195–199"
+        }
+      ],
+      "note": ""
+    },
+    "F9uESCHGjhA": {
+      "number": 108,
+      "title": "Introduction to Random Forest | Intuition behind the Algorithm",
+      "readings": [
+        {
+          "topicId": "forests",
+          "sourceStart": 223,
+          "sourceEnd": 227,
+          "section": "Random forests, Extra-Trees and feature importance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "197–201"
+        }
+      ],
+      "note": ""
+    },
+    "jHgG4gjuFAk": {
+      "number": 109,
+      "title": "How Random Forest Performs So Well? Bias Variance Trade-Off in Random Forest",
+      "readings": [
+        {
+          "topicId": "forests",
+          "sourceStart": 223,
+          "sourceEnd": 227,
+          "section": "Random forests, Extra-Trees and feature importance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "197–201"
+        }
+      ],
+      "note": ""
+    },
+    "l93jRojZMqU": {
+      "number": 110,
+      "title": "Bagging Vs Random Forest | What is the difference between Bagging and Random Forest | Very Important",
+      "readings": [
+        {
+          "topicId": "forests",
+          "sourceStart": 223,
+          "sourceEnd": 227,
+          "section": "Random forests, Extra-Trees and feature importance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "197–201"
+        }
+      ],
+      "note": ""
+    },
+    "WOFVY_wQ9wU": {
+      "number": 111,
+      "title": "Random Forest Hyper-parameters",
+      "readings": [
+        {
+          "topicId": "forests",
+          "sourceStart": 223,
+          "sourceEnd": 227,
+          "section": "Random forests, Extra-Trees and feature importance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "197–201"
+        }
+      ],
+      "note": ""
+    },
+    "4Im0CT43QxY": {
+      "number": 112,
+      "title": "Hyperparameter Tuning Random Forest using GridSearchCV and RandomizedSearchCV | Code Example",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 105,
+          "sourceEnd": 109,
+          "section": "Grid search and randomized search",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 9,
+          "printedPages": "79–83"
+        }
+      ],
+      "note": ""
+    },
+    "tdDhyFoSG94": {
+      "number": 113,
+      "title": "OOB Score | Out of Bag Evaluation in Random Forest | Machine Learning",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 223,
+          "sourceEnd": 224,
+          "section": "Out-of-bag evaluation",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 7,
+          "printedPages": "197–198"
+        }
+      ],
+      "note": ""
+    },
+    "R47JAob1xBY": {
+      "number": 114,
+      "title": "Feature Importance using Random Forest and Decision Trees | How is Feature Importance calculated",
+      "readings": [
+        {
+          "topicId": "forests",
+          "sourceStart": 226,
+          "sourceEnd": 227,
+          "section": "Feature importance",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 4,
+          "printedPages": "200–201"
+        }
+      ],
+      "note": ""
+    },
+    "sFKnP0iP0K0": {
+      "number": 115,
+      "title": "How Adaboost Classifier Works? | Geometric Intuition",
+      "readings": [
+        {
+          "topicId": "adaboost",
+          "sourceStart": 227,
+          "sourceEnd": 231,
+          "section": "AdaBoost intuition, equations and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "201–205"
+        }
+      ],
+      "note": ""
+    },
+    "RT0t9a3Xnfw": {
+      "number": 116,
+      "title": "AdaBoost - A Step by Step Explanation",
+      "readings": [
+        {
+          "topicId": "adaboost",
+          "sourceStart": 227,
+          "sourceEnd": 231,
+          "section": "AdaBoost intuition, equations and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "201–205"
+        }
+      ],
+      "note": ""
+    },
+    "a20TaKNsriE": {
+      "number": 117,
+      "title": "AdaBoost Algorithm | Code from Scratch",
+      "readings": [
+        {
+          "topicId": "adaboost",
+          "sourceStart": 227,
+          "sourceEnd": 231,
+          "section": "AdaBoost intuition, equations and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "201–205"
+        }
+      ],
+      "note": ""
+    },
+    "JmXnztjULnQ": {
+      "number": 118,
+      "title": "AdaBoost Hyperparameters | GridSearchCV in Adaboost",
+      "readings": [
+        {
+          "topicId": "adaboost",
+          "sourceStart": 227,
+          "sourceEnd": 231,
+          "section": "AdaBoost intuition, equations and Scikit-Learn",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "201–205"
+        },
+        {
+          "topicId": "evaluation",
+          "sourceStart": 105,
+          "sourceEnd": 107,
+          "section": "Grid search",
+          "coverage": "related",
+          "note": "General tuning workflow; the example is not AdaBoost-specific.",
+          "pdfPage": 9,
+          "printedPages": "79–81"
+        }
+      ],
+      "note": ""
+    },
+    "7M5oWXCpDEw": {
+      "number": 119,
+      "title": "Bagging Vs Boosting | What is the difference between Bagging and Boosting",
+      "readings": [
+        {
+          "topicId": "bagging",
+          "sourceStart": 221,
+          "sourceEnd": 225,
+          "section": "Bagging",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 5,
+          "printedPages": "195–199"
+        },
+        {
+          "topicId": "adaboost",
+          "sourceStart": 227,
+          "sourceEnd": 231,
+          "section": "Sequential boosting and AdaBoost",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "201–205"
+        }
+      ],
+      "note": ""
+    },
+    "fbKz7N92mhQ": {
+      "number": 120,
+      "title": "Gradient Boosting Explained | How Gradient Boosting Works?",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting, residuals and early stopping",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "nMNiTZm-qY0": {
+      "number": 121,
+      "title": "Gradient Boosting Regression Part 2 | Mathematics of Gradient Boosting",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting, residuals and early stopping",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "4p5EQtyxSyI": {
+      "number": 122,
+      "title": "Gradient Boosting for Classification | Geometric Intuition | CampusX",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting",
+          "coverage": "related",
+          "note": "The worked example is regression; the full classification derivation is not supplied.",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "C6aDw4y8qJ0": {
+      "number": 123,
+      "title": "Introduction to XGBOOST | Machine Learning | CampusX",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting and XGBoost introduction",
+          "coverage": "partial",
+          "note": "Only a brief XGBoost usage example is included; its detailed objective, tree-building maths and classification derivation are not covered.",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "gmp2tS2joaA": {
+      "number": 124,
+      "title": "XGBoost for Regression | XGBoost Part 2 | CampusX",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting and XGBoost introduction",
+          "coverage": "partial",
+          "note": "Only a brief XGBoost usage example is included; its detailed objective, tree-building maths and classification derivation are not covered.",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "mELtxVUNNrw": {
+      "number": 125,
+      "title": "XGBoost For Classification | How XGBoost works on Classification Problems | CampusX",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting and XGBoost introduction",
+          "coverage": "partial",
+          "note": "Only a brief XGBoost usage example is included; its detailed objective, tree-building maths and classification derivation are not covered.",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "0Eo-_5bfers": {
+      "number": 126,
+      "title": "The Maths Behind XGBoost | Machine Learning | CampusX",
+      "readings": [
+        {
+          "topicId": "boosting",
+          "sourceStart": 231,
+          "sourceEnd": 236,
+          "section": "Gradient boosting and XGBoost introduction",
+          "coverage": "partial",
+          "note": "Only a brief XGBoost usage example is included; its detailed objective, tree-building maths and classification derivation are not covered.",
+          "pdfPage": 1,
+          "printedPages": "205–210"
+        }
+      ],
+      "note": ""
+    },
+    "O-aDHBGMqXA": {
+      "number": 127,
+      "title": "Stacking and Blending Ensembles",
+      "readings": [
+        {
+          "topicId": "stacking",
+          "sourceStart": 236,
+          "sourceEnd": 239,
+          "section": "Stacking, blending and training a meta-learner",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 1,
+          "printedPages": "210–213"
+        }
+      ],
+      "note": ""
+    },
+    "5shTLzwAdEc": {
+      "number": 128,
+      "title": "K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 264,
+          "sourceEnd": 277,
+          "section": "K-means, centroids, initialization and choosing k",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "238–251"
+        }
+      ],
+      "note": ""
+    },
+    "UPvv9SprgVo": {
+      "number": 129,
+      "title": "K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 264,
+          "sourceEnd": 277,
+          "section": "K-means, centroids, initialization and choosing k",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "238–251"
+        }
+      ],
+      "note": ""
+    },
+    "MFraC1JObUo": {
+      "number": 130,
+      "title": "K-Means Clustering Algorithm From Scratch In Python | ML Algorithms From Scratch",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 264,
+          "sourceEnd": 277,
+          "section": "K-means, centroids, initialization and choosing k",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 2,
+          "printedPages": "238–251"
+        }
+      ],
+      "note": ""
+    },
+    "Ka5i9TVUT-E": {
+      "number": 131,
+      "title": "Agglomerative Hierarchical Clustering | Python Code Example",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 285,
+          "sourceEnd": 286,
+          "section": "Agglomerative clustering",
+          "coverage": "partial",
+          "note": "A brief overview; not a worked hierarchical-clustering implementation.",
+          "pdfPage": 23,
+          "printedPages": "259–260"
+        }
+      ],
+      "note": ""
+    },
+    "1_bLnsNmhCI": {
+      "number": 132,
+      "title": "DBSCAN Clustering Algorithms | Density Based Clustering | How DBSCAN Works | CampusX",
+      "readings": [
+        {
+          "topicId": "clustering",
+          "sourceStart": 282,
+          "sourceEnd": 285,
+          "section": "DBSCAN and density-based clustering",
+          "coverage": "direct",
+          "note": "",
+          "pdfPage": 20,
+          "printedPages": "256–259"
+        }
+      ],
+      "note": ""
+    },
+    "yh2AKoJCV3k": {
+      "number": 133,
+      "title": "Imbalanced Data in Machine Learning | Undersampling | Oversampling | SMOTE",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 116,
+          "sourceEnd": 128,
+          "section": "Classification metrics beyond accuracy",
+          "coverage": "related",
+          "note": "Useful for evaluation on imbalanced data; undersampling, oversampling and SMOTE are not taught here.",
+          "pdfPage": 17,
+          "printedPages": "90–102"
+        }
+      ],
+      "note": "This book excerpt does not cover SMOTE or a dedicated resampling workflow."
+    },
+    "E2b3SKMw934": {
+      "number": 134,
+      "title": "Hyperparameter Tuning using Optuna | Bayesian Optimization using Optuna",
+      "readings": [
+        {
+          "topicId": "evaluation",
+          "sourceStart": 105,
+          "sourceEnd": 109,
+          "section": "Hyperparameter search",
+          "coverage": "related",
+          "note": "Covers grid and randomized search; not Optuna or Bayesian optimization.",
+          "pdfPage": 9,
+          "printedPages": "79–83"
+        }
+      ],
+      "note": "Optuna is not covered in this supplied edition."
+    }
+  }
+}
